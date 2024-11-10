@@ -1,0 +1,29 @@
+.input{
+  position: relative;
+}
+
+.root{
+  border: 1px solid rgba(0,0,0,0.1);
+  padding: 12px 20px;
+  width: 300px;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: all 0.15s ease-in-out;
+  &:focus{
+    border: 1px solid rgba(0,0,0,0.4);
+    width: 450px;
+  }
+}
+
+.pics{
+  width: 18px;
+  height: 18px;
+  opacity: 0.3;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  &:hover{
+    opacity: 1;
+    cursor: pointer;
+  }
+}
